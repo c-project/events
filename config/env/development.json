@@ -1,0 +1,26 @@
+{
+    "db": "mongodb://localhost/events-dev",
+    "app": {
+        "name": "Events [DEV]"
+    },
+    "facebook": {
+        "clientID": "246866805471144",
+        "clientSecret": "faff9e4e1ccc7b878603ed74fa646532",
+        "callbackURL": "http://localhost:3000/auth/facebook/callback"
+    },
+    "twitter": {
+        "clientID": "TgGrUHYwSYBmVqdpXW8KJw",
+        "clientSecret": "PC3qpYZ3EV29c2SdKUqHkm6Ch1eUpiIdU4s7dSYnM",
+        "callbackURL": "http://localhost:3000/auth/twitter/callback"
+    },
+    "github": {
+        "clientID": "6440509fd082657f284e",
+        "clientSecret": "43aec378895c598a6a2b0c6b5959648bb74f8a08",
+        "callbackURL": "http://localhost:3000/auth/github/callback"
+    },
+    "google": {
+        "clientID": "APP_ID",
+        "clientSecret": "APP_SECRET",
+        "callbackURL": "http://localhost:3000/auth/google/callback"
+    }
+}

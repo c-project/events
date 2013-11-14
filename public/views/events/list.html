@@ -1,0 +1,15 @@
+  <div ng-controller="EventsController" ng-init="find()">
+		<div  ng-repeat="event in events">
+			<div id="event_item_{{event.id}}" ng-init="visible=false" class="event-item">
+				<div ng-model="visible" class="event-header">
+					<h3><a href="#!/events/{{event._id}}">{{event.title}}</a></h3>
+				</div>
+				<div>{{event.description}}</div>
+				<div class="row-fluid" ng-controller="PhotosController" ng-init="findByEvent(event)">
+					<span ng-class="span1" data-ng-repeat="photo in photos.slice(0,4)">
+						<img ng-src="/images/{{photo.fileName}}" width="200" />
+					</span>
+				</div>
+			</div>
+		</div>
+    </div>

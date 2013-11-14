@@ -1,0 +1,9 @@
+<div  ng-repeat="event in events">
+<div id="event_item_{{event.id}}" ng-init="visible=false" class="event-item">
+	<div ng-model="visible" ng-click="onClickHandler()" class="event-header">{{event.name}}</div>
+	<!-- <button ng-click="hello('Elmo')">Hello</button> -->
+	<div class="check-element event-image animate-show-hide" ng-show="visible">
+		<img ng-src="/images/{{event.image}}"/>
+	</div>
+</div>
+</div>

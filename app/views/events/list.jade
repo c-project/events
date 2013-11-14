@@ -1,0 +1,6 @@
+extends ../layouts/main
+
+block content
+	each event in events
+		div= event.title
+		img(src="/images/#{event.image}")

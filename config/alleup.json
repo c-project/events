@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "resize": {
+            "thumb" : "200x200",
+            "preview": "800x600"
+        }
+    },
+
+    "storage": {
+        "aws": {
+            "key" : "aws_key",
+            "secret" : "aws_secret",
+            "bucket" : "aws_bucket"
+        },
+        "dir": {
+            "path" : "./public/images/uploaded" 
+        }
+    }
+}

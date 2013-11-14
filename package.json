@@ -1,0 +1,47 @@
+{
+    "name": "ng-event",
+    "description": "",
+    "version": "0.1.0",
+    "private": false,
+    "author": "Sergey Budaev",
+    "engines": {
+        "node": "0.10.x",
+        "npm": "1.2.x"
+    },
+    "scripts": {
+        "start": "node node_modules/grunt-cli/bin/grunt",
+        "test": "node node_modules/grunt-cli/bin/grunt test",
+        "postinstall": "bower install"
+    },
+    "dependencies": {
+        "express": "3.x",
+        "alleup": "latest",
+        "jade": "latest",
+        "mongoose": "latest",
+        "grunt": "latest",
+        "grunt-cli": "latest",
+        "mean-logger": "latest",
+        "crypto": "latest",
+        "passport": "latest",
+        "passport-local": "latest",
+        "passport-facebook": "latest",
+        "passport-twitter": "latest",
+        "passport-github": "latest",
+        "passport-google-oauth": "latest",
+        "underscore": "latest",
+        "connect-mongo": "latest",
+        "connect-flash": "latest",
+        "view-helpers": "latest",
+        "async": "latest",
+        "grunt-env": "latest",
+        "grunt-sass": "latest"
+    },
+    "devDependencies": {
+        "grunt-contrib-watch": "latest",
+        "should": "latest",
+        "grunt-nodemon": "latest",
+        "grunt-concurrent": "latest",
+        "grunt-contrib-jshint": "latest",
+        "grunt-mocha-test": "latest"
+    }
+}

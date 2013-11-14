@@ -1,0 +1,8 @@
+  <div ng-controller="PhotosController" ng-init="find()">
+		<h3 ng-controller="EventsController" ng-init="findOne()">{{event.title}}</h3>
+		<div class="row-fluid" ng-repeat="photo in photos">
+			<span ng-class="span1">
+				<img ng-src="/images/{{photo.fileName}}" width="200"/>
+			</span>
+		</div>
+    </div>

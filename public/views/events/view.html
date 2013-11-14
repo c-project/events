@@ -1,0 +1,10 @@
+<div ng-controller="EventsController" ng-init="show()">
+	<div><h3><span>{{event.title}}</span><span class="label" style="margin-left:10px;">Edit</span></h3></div>
+	<div style="height:800px;">
+		<div isotope-container iso-options="isoOptions">
+			<div class="photo-entry" ng-repeat="photo in event.photos" isotope-item style="height:130px;">
+				<img ng-src="/images/{{photo.fileName}}" width="200" class="img-rounded" />
+			</div>
+		</div>
+	</div>
+</div>
